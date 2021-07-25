@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:samasys/samasys_ui.dart';
-import 'package:samasys_app/pages/list_employee.screen.dart';
-import 'package:samasys_app/shared/app_bar.dart';
-import 'package:samasys_app/view_models/employee.model.dart';
+import 'package:samasys_app/core/view_models/employee.model.dart';
+import 'package:samasys_app/ui/shared/app_bar.dart';
+import 'package:samasys_app/ui/views/list_employee.screen.dart';
 
 class CreateEmployee extends StatelessWidget {
   static const String ROUTE = "/";

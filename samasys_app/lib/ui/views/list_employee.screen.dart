@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:samasys/samasys_ui.dart';
-import 'package:samasys_app/models/employee.dart';
-import 'package:samasys_app/shared/app_bar.dart';
-import 'package:samasys_app/view_models/employee.model.dart';
-import 'package:samasys_app/widgets/loan_record_list.dart';
+import 'package:samasys_app/core/models/employee.dart';
+import 'package:samasys_app/core/view_models/employee.model.dart';
+import 'package:samasys_app/ui/shared/app_bar.dart';
+import 'package:samasys_app/ui/widgets/loan_record_list.dart';
 
 class ListEmployee extends StatefulWidget {
   static const String ROUTE = "/list_employee";

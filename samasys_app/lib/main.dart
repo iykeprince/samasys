@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:samasys_app/custom_router.dart';
-import 'package:samasys_app/pages/create_employee.screen.dart';
-// import 'package:samasys_app/pages/list_employee.screen.dart';
-import 'package:samasys_app/view_models/employee.model.dart';
+import 'package:samasys_app/core/utils/custom_router.dart';
+import 'package:samasys_app/core/view_models/employee.model.dart';
+import 'package:samasys_app/ui/views/create_employee.screen.dart';
 
 void main() {
   runApp(MyApp());

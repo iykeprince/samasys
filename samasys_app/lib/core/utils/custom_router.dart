@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:samasys_app/pages/create_employee.screen.dart';
-import 'package:samasys_app/pages/list_employee.screen.dart';
+import 'package:samasys_app/ui/views/create_employee.screen.dart';
+import 'package:samasys_app/ui/views/list_employee.screen.dart';
 
 class CustomRouter {
   static Route<Widget>? onGenerateRoute(RouteSettings settings) {

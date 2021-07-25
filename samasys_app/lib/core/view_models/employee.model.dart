@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:samasys_app/models/employee.dart';
-import 'package:samasys_app/services/validator.service.dart';
-import 'package:samasys_app/utils/util.dart';
+import 'package:samasys_app/core/models/employee.dart';
+import 'package:samasys_app/core/services/validator.service.dart';
+import 'package:samasys_app/core/utils/util.dart';
 
 class EmployeeModel extends ChangeNotifier {
 /**
